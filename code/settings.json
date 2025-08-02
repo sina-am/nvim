@@ -1,0 +1,105 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "workbench.editor.autoLockGroups": {},
+
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 3,
+
+    "editor.fontSize": 16,
+    "editor.lineNumbers": "relative",
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.formatOnType": false,
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit"
+        }
+    },
+    "find-it-faster.general.useTerminalInEditor": true,
+    "find-it-faster.general.killTerminalAfterUse": true,
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        }
+    ],
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "cSpell.userWords": [
+        "autogen",
+        "filterset",
+        "maktab",
+        "maktabkhooneh",
+        "Meli",
+        "PARSIAN",
+        "Payamak",
+        "Payamek",
+        "restframework",
+        "sina",
+        "Thonny",
+        "timsort",
+        "tooman",
+        "upgrader"
+    ],
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "mdb.confirmDeleteDocument": false,
+    "mdb.confirmRunAll": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "hediet.vscode-drawio.resizeImages": null,
+    "workbench.preferredLightColorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "none",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "files.autoSave": "onFocusChange",
+    "makefile.configureOnOpen": true,
+    "gopls": {
+        "ui.codelenses": {
+            "generate": true,
+            "gc_details": true
+        },
+        "ui.diagnostic.annotations": {
+            "escape": true
+        },
+        "ui.semanticTokens": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.diffAlsorithm": "advanced",
+    "diffEditor.experimental.showMoves": true,
+
+    "redhat.telemetry.enabled": true,
+    "SQLNotebook.outputJSON": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false
+}
